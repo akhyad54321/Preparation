@@ -23,5 +23,4 @@ public class ArraySort {
             System.out.println(arr[i] + " ");
         }
     }
-
 }

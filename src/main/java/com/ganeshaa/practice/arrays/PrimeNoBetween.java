@@ -12,7 +12,6 @@ public class PrimeNoBetween {
         List<Integer> primeList = p1.hello();
         System.out.println("PrimeNo = " + primeList);
     }
-
     public List<Integer> hello(){
         List<Integer> primeNoList = new ArrayList<>();
 
