@@ -11,7 +11,6 @@ public class PreparationApplication {
     }
 
 }
-
 /*
 Hi @all
 Please check Primary Topics for Fresher's Training:
