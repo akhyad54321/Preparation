@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+https://www.springframework.org/schema/beans/spring-beans.xsd
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <bean class="com.spring.setter.collections.Employee"
+          name="employee">
+        <property name="name" value="Akhiesh"/>
+
+        <property name="phones">
+            <list>
+                <value>87964447</value>
+                <value>38796774</value>
+                <value>44387967</value>
+            </list>
+        </property>
+
+        <property name="address">
+            <set>
+                <value>Thane</value>
+                <value>Vashi</value>
+                <value>Nerul</value>
+            </set>
+        </property>
+
+        <property name="courses">
+            <map>
+                <entry key="Python" value="2Months"/>
+                <entry key="Java" value="3Months"/>
+                <entry key="Django" value="2.5Months"/>
+            </map>
+        </property>
+
+
+    </bean>
+
+</beans>
