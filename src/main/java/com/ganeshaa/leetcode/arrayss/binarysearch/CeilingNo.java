@@ -38,6 +38,7 @@ public class CeilingNo {
         System.out.println("Floor Value = " + arr[end]);
         System.out.println("Ceiling Value = " + arr[middle]);
         return arr[middle];
+
     }
 
 }
