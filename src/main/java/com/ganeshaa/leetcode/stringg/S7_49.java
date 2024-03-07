@@ -16,33 +16,35 @@ public class S7_49 {
         List<List<String>> outer = new ArrayList<>();
         String stri = "";
         String strj = "";
-        String strip = "";
-        String strjp = "";
+        String str1 = "";
+        String str2 = "";
         for (int i = 0; i < strs.length; i++) {
+            boolean value = false;
             List<String> inner = new ArrayList<>();
             for (int j = i + 1; j < strs.length; j++) {
+                stri = strs[i];
+                strj = strs[j];
 
-                strip = strs[i];
-                strjp = strs[j];
-                char[] ci = strip.toCharArray();
-                char[] cj = strjp.toCharArray();
+                char[] ci = stri.toCharArray();
+                char[] cj = strj.toCharArray();
 
                 Arrays.sort(ci);
                 Arrays.sort(cj);
 
-                stri = String.valueOf(ci);
-                strj = String.valueOf(cj);
+                str1 = String.valueOf(ci);
+                str2 = String.valueOf(cj);
 
-                System.out.println("stri = " + stri);
-                System.out.println("strj = " + strj);
-                if (stri.equals(strj)) {
+                if (str1.equals(str2)) {
+                    value = true;
                     inner.add(strj);
                 }
             }
-            inner.add(stri);
-            outer.add(inner);
-            inner.clear();
-            System.out.println("====================");
+            if (value){
+                inner.add(stri);
+            }
+            if (!inner.isEmpty()){
+                outer.add(inner);
+            }
         }
         return outer;
     }

@@ -5,7 +5,6 @@ public class BinarySearch {
         int[] arr = {25, 27, 29, 34, 37, 38, 38, 47, 54, 89};
         BinarySearch b = new BinarySearch();
         int position = b.checkPosition(arr, 88);
-//        System.out.println(arr.length);
         System.out.println("position = " + position);
     }
 
