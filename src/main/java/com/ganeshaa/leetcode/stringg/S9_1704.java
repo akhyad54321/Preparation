@@ -2,9 +2,9 @@ package com.ganeshaa.leetcode.stringg;
 
 import java.util.List;
 
-public class S8_1704 {
+public class S9_1704 {
     public static void main(String[] args) {
-        S8_1704 app = new S8_1704();
+        S9_1704 app = new S9_1704();
         boolean halves = app.halvesAreAlike("book");
         System.out.println("halves =" + halves);
     }
