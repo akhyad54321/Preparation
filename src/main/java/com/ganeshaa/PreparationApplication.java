@@ -59,6 +59,4 @@ Topic 6 ORM / JPA
 4) Types of Annotations
 5) Types of Caching
 
-
-
  */
