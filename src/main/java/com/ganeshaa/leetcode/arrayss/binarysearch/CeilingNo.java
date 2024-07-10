@@ -22,8 +22,8 @@ public class CeilingNo {
         }
         while (start <= end) {
             middle = (start + end) / 2;
-            if (start == end) {
-                if (target > arr[start]) {
+            if (start == end) { // If target element is not present , then it will find one higher no than target[In Ceiling No]
+                if (target > arr[start]) {// i.e null value to aiyaga nhi agar target element nhi present hai too, target se higher value find karaga.
                     return arr[start + 1];
                 }
             }

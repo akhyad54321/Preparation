@@ -35,5 +35,4 @@ public class S3_2947 {
         }
         return list;
     }
-
 }
