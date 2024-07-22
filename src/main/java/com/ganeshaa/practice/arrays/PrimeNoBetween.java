@@ -1,7 +1,5 @@
 package com.ganeshaa.practice.arrays;
 
-import org.apache.catalina.LifecycleState;
-
 import java.util.ArrayList;
 import java.util.List;
 
