@@ -46,7 +46,7 @@ public class Comparatorrr {
 		list.add(e1);
 		
 //		Collections.sort(list, new IdComparator());
-		Collections.sort(list, new NameComparator());
+//		Collections.sort(list, new NameComparator());
 		for(Employee emp : list) {
 			System.out.println(emp.getId() + " - " + emp.getName());
 		}

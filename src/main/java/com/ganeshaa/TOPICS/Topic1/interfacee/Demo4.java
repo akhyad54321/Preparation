@@ -1,7 +1,7 @@
 package com.ganeshaa.TOPICS.Topic1.interfacee;
 
 interface f1{
-	void show();
+	public abstract void show();
 	default void detail() {
 		System.out.println("1");
 	}

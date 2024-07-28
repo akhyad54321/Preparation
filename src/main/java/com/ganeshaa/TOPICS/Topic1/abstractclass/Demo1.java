@@ -12,8 +12,8 @@ public class Demo1 extends Test {
 	public static void main(String[] args) {
 		
 		Demo1 d11 = new Demo1();
-		d11.show();
-		d11.run();
+//		d11.show();
+//		d11.run();
 		d11.print();
 	
 	
@@ -31,7 +31,7 @@ public class Demo1 extends Test {
 	}
 	@Override
 	void print() {
-//		super.print();
+		super.print();
 		System.out.println("printttttt");
 	}
 }

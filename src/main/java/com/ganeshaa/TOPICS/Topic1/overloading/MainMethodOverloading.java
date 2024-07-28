@@ -5,10 +5,10 @@ public class MainMethodOverloading {
 	public static void main(String[] args) {
 		System.out.println("string");
 
-		int[] a = new int[10];
-		main(a);
-		double[] b = new double[10];
-		main(b);
+//		int[] a = new int[10];
+//		main(a);
+//		double[] b = new double[10];
+//		main(b);
 		
 	}
 	

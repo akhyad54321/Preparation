@@ -32,16 +32,16 @@ class Book implements Comparable<Book>{
 		return "Book [id=" + id + ", name=" + name + "]";
 	}
 
-//	@Override
-//	public int compareTo(Book b1) {
-//		return this.name.compareTo(b1.name);
-//	}
-
 	@Override
 	public int compareTo(Book b1) {
-		return this.id - b1.id;
+		return this.name.compareTo(b1.name);
 	}
-	
+
+//	@Override
+//	public int compareTo(Book b1) {
+//		return this.id - b1.id;
+//	}
+//
 	
 }
 public class Ganeshaa {
@@ -50,7 +50,7 @@ public class Ganeshaa {
 		Book b1 = new Book(1, "Akhilesh");
 		Book b2 = new Book(2, "Hanumanji");
 		Book b3 = new Book(3, "Sanket");
-		Book b4 = new Book(4, "Sameer");
+		Book b4 = new Book(4, "Akash");
 		
 		list.add(b1);
 		list.add(b3);

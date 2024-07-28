@@ -1,6 +1,7 @@
 package com.ganeshaa.TOPICS.Topic2.collections.listt;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 class Book {
     int id;
@@ -32,13 +33,22 @@ public class ArrayListt {
         list.add(b2);
         list.add(b3);
 
-        for (Book book : list) {
-            System.out.println(book.id + book.name);
-        }
+//        for (Book book : list) {
+//            System.out.println(book.id + book.name);
+//        }
+//
+//        System.out.println("---------------");
 
-        System.out.println("---------------");
-        list.forEach(e -> {
-            System.out.println(e);
-        });
+//        list.forEach(e -> {
+//            System.out.println(e);
+//        });
+
+//        =============================
+
+
+        Iterator<Book> iterator = list.iterator();
+        while (iterator.hasNext()){
+            System.out.println(iterator.next());
+        }
     }
 }

@@ -6,11 +6,9 @@ public class Demo1 {
         String name = "AkhileSH YAdav";
         String rev = "";
 
-        for (int i=0; i<name.length(); i++){
+        for (int i = 0; i < name.length(); i++) {
             char ch = name.charAt(i);
-            if (Character.isUpperCase(ch)){
-                rev = rev + Character.toLowerCase(ch);
-            }else {
+            if (Character.isUpperCase(ch)) {
                 rev = rev + Character.toUpperCase(ch);
             }
         }
