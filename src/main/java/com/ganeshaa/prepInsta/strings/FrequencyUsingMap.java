@@ -6,7 +6,7 @@ import java.util.Map;
 public class FrequencyUsingMap {
 	public static void main(String[] args) {
 		
-		String name = "aeioueia";
+		String name = "aeioueiaaa";
 		int count = 1;
 		
 		HashMap<Character, Integer> map = new HashMap<>();
