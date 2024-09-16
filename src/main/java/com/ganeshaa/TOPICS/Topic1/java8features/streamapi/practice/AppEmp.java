@@ -15,19 +15,24 @@ public class AppEmp {
         list.add(new Employee(4, "Kunal", "Rabale"));
         list.add(new Employee(5, "Dilip", "Mumbai"));
 
-        System.out.println(list);
-
-        Map<Integer, String> map1 = list.stream().collect(Collectors.toMap(Employee::getId, Employee::getName));
-        for (Map.Entry<Integer, String> m: map1.entrySet()){
-            System.out.println(m.getKey() + "-" + m.getValue());
+//        System.out.println(list);
+        System.out.println("---------------------------------");
+        Map<Integer, String> map= list.stream().collect(Collectors.toMap(employee -> employee.getId(), employee -> employee.getLocation()));
+        for (Map.Entry<Integer, String> m : map.entrySet()){
+            System.out.println(m.getKey() + " " + m.getValue());
         }
 
-        System.out.println("----------without using method reference--------");
-
-        Map<Integer, String> collect = list.stream().collect(Collectors.toMap(employee -> employee.getId(), employee -> employee.getLocation()));
-        for (Map.Entry<Integer, String> m : collect.entrySet()){
-            System.out.println(m.getKey() + " - " + m.getValue());
-        }
+//        Map<Integer, String> map1 = list.stream().collect(Collectors.toMap(Employee::getId, Employee::getName));
+//        for (Map.Entry<Integer, String> m: map1.entrySet()){
+//            System.out.println(m.getKey() + "-" + m.getValue());
+//        }
+//
+//        System.out.println("----------without using method reference--------");
+//
+//        Map<Integer, String> collect = list.stream().collect(Collectors.toMap(employee -> employee.getId(), employee -> employee.getLocation()));
+//        for (Map.Entry<Integer, String> m : collect.entrySet()){
+//            System.out.println(m.getKey() + " - " + m.getValue());
+//        }
 
 
 //        List<String> collect = map1.entrySet().stream().map(i -> i.getValue()).collect(Collectors.toList());

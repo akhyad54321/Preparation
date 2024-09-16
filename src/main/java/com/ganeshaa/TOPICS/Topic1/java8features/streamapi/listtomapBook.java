@@ -25,6 +25,9 @@ public class listtomapBook {
 		
 		Map<Integer, String> collect = list.stream().collect(Collectors.toMap(Book::getId, Book::getName));
 		System.out.println(collect);
+
+		Map<Integer, String> stringMap = list.stream().collect(Collectors.toMap(book -> book.id, book -> book.name));
+		System.out.println(stringMap);
 //		Map<Integer, String> collect = bookList.stream().collect(Collectors.toMap(Book::getId, Book::getName));
 //		System.out.println(collect);
 		

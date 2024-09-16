@@ -7,11 +7,16 @@ interface Stringg{
 
 public class Demo7 {
 	public static void main(String[] args) {
-		
-		Stringg string = ()->{
-			System.out.println("Hello");
+
+		Stringg s1 = ()->{
+			System.out.println("hello");
 		};
+		s1.show();
 		
-		string.show();
+//		Stringg string = ()->{
+//			System.out.println("Hello");
+//		};
+//
+//		string.show();
 	}
 }

@@ -2,7 +2,7 @@ package com.ganeshaa.prepInsta.basic;
 
 import java.util.Scanner;
 
-public class PrimeNo2 {
+public class PrimeNo {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		boolean b = false;
