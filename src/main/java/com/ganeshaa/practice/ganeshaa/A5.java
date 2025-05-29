@@ -6,7 +6,7 @@ import java.util.List;
 public class A5 {//Prime within given range
     public static void main(String[] args) {
         List<Integer> list = new ArrayList<>();
-        int start = 10;
+        int start = 1;
         int end = 100;
         for (int i=start; i<=end; i++){
             if (isPrime(i)){
