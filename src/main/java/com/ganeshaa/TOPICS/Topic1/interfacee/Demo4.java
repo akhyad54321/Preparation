@@ -1,5 +1,6 @@
 package com.ganeshaa.TOPICS.Topic1.interfacee;
 
+@FunctionalInterface
 interface f1{
 	public abstract void show();
 	default void detail() {
@@ -9,9 +10,9 @@ interface f1{
 		System.out.println("music");
 	}
 	
-//	private void m1() {
-//		System.out.println("hie");
-//	}
+	private void m1() {
+		System.out.println("hie");
+	}
 	
 }
 public class Demo4 implements f1{

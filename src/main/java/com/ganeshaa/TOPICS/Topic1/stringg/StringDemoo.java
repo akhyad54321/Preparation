@@ -5,10 +5,10 @@ public class StringDemoo {
 		String s1=new String("Lokesh"); // new keyword ka use kiya too OBJECT hota hai : 
 		String s2=new String("Lokesh");
 		
-//		System.out.println(s1==s2);
-//		System.out.println(s1.equals(s2));
+		System.out.println(s1==s2);
+		System.out.println(s1.equals(s2));
 //
-//		System.out.println("======");
+		System.out.println("======");
 		
 //		String s11 = "akash"; // direct assign kiya to literal hota hai :
 //		String s12 = "akash";

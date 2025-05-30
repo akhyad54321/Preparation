@@ -8,14 +8,14 @@ public class Demo1 {
 			c = a/b; 
 		}
 		
-//		catch (Exception e) { 
+//		catch (Exception e) {
 //			System.out.println(e);
 //		}
-//		catch (ArithmeticException e1) { // we cannot write child exception after parent exception : 
+//		catch (ArithmeticException e1) { // we cannot write child exception after parent exception :
 //			System.out.println(e1);
 //		}
 		
-		catch (ArithmeticException e1) { 
+		catch (ArithmeticException e1) {
 			System.out.println("Arithmetic Exception : " + e1);
 		}
 		catch (Exception e) {

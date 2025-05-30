@@ -45,8 +45,8 @@ class Child1 extends Parent1{
 }
 public class Demo2 {
 	public static void main(String[] args) {
-//		Child1 child1 = new Child1();
-//		child1.print();
+		Child1 child1 = new Child1();
+		child1.print();
 		Parent1 parent1 = new Child1();
 		parent1.print();
 	}
