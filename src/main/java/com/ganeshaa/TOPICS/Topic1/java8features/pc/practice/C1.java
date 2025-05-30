@@ -16,9 +16,9 @@ import java.util.function.Consumer;
 
 public class C1{
     public static void main(String[] args) {
-        Consumer con1 = (i)->{
-            System.out.println("Integer Value of i = "+ i);
-        };
-        con1.accept(9);
+       Consumer c = (i)->{
+           System.out.println(i);
+       };
+       c.accept(5);
     }
 }

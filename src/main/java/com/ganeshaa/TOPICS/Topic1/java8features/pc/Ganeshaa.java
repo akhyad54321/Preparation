@@ -4,9 +4,48 @@ import org.hibernate.event.spi.SaveOrUpdateEvent;
 
 import javax.swing.plaf.metal.MetalInternalFrameTitlePane;
 import java.util.function.Function;
+import java.util.function.Predicate;
 
 public class Ganeshaa {
 	public static void main(String[] args) {
+//		Predicate<Integer> p = (Integer a)->{
+//			if(a%2==0){
+//				return true;
+//			}else {
+//				return false;
+//			}
+//		};
+//		System.out.println(p.test(5));
+
+		Function<Integer, Integer> f1 = i->i*i;
+		System.out.println(f1.apply(5));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 		
 //		Predicate<Integer> predicate = (Integer a)->{
 //			if(a%2==0) {
@@ -33,11 +72,11 @@ public class Ganeshaa {
 //		Function<String, String> f4 = s->s.toLowerCase();
 //		System.out.println(f4.apply("AKHILESH"));
 
-		Function<Integer, Integer> f1 = i-> i*i;
-		System.out.println(f1.apply(5));
-
-		Function<Integer, String> f2 = i->i*i + "AAKHIELDJD";
-		System.out.println(f2.apply(9));
+//		Function<Integer, Integer> f1 = i-> i*i;
+//		System.out.println(f1.apply(5));
+//
+//		Function<Integer, String> f2 = i->i*i + "AAKHIELDJD";
+//		System.out.println(f2.apply(9));
 		
 	}
 	
