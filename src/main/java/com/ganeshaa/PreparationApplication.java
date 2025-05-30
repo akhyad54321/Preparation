@@ -19,6 +19,8 @@ Topic 1 -- Core Java:
 1) Overloading & Overriding
 2) Interface vs Abstract Class
 3) JDK 8 Features
+    https://www.ccbp.in/blog/articles/java-8-coding-interview-questions-and-answers    //vvImp
+    https://javaconceptoftheday.com/java-8-interview-sample-coding-questions/
 4) Access Modifiers
 5) String / StringBuffer / StringBuilder
 6) Object vs Class Lock
