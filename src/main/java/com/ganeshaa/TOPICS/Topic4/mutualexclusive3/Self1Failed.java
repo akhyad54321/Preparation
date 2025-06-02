@@ -32,7 +32,7 @@ class Practicee extends Thread{
 		show();
 	}
 }
-public class Self1 {
+public class Self1Failed {
 	public static void main(String[] args) {
 		
 		Practicee p = new Practicee();
