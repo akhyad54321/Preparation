@@ -16,12 +16,11 @@ public class Demo1HS {
 		set.add(null);
 		set.add("Aditya");
 		set.add("aditya");
-		
-		System.out.println(set);
-		set.remove("Akhilesh");
-		System.out.println(set);
+//
+//		System.out.println(set);
+//		set.remove("Akhilesh");
+//		System.out.println(set);
 
-		System.out.println("iterating elements");
 		Iterator<String> iterator = set.iterator();
 		while (iterator.hasNext()){
 			System.out.println(iterator.next());

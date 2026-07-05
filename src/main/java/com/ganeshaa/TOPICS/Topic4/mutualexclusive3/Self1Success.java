@@ -1,7 +1,8 @@
 package com.ganeshaa.TOPICS.Topic4.mutualexclusive3;
 
 class T1 extends Thread{
-    public  void sum(){
+
+    public void sum(){
         synchronized (T1.class){
             for (int i=1; i<=5; i++){
                 try {

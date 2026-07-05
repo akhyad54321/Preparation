@@ -3,9 +3,9 @@ package com.ganeshaa.TOPICS.Topic1.accessmodifier;
 class Test{
 	int id = 11;
 	
-//	private Test() {
-//		
-//	}
+	private Test() {
+
+	}
 	protected Test(int id) {
 		this.id=id;
 	}

@@ -7,6 +7,9 @@ class Parent1{
 	void print() {
 		System.out.println("print");
 	}
+	void akhilesh(){
+		System.out.println("akhilesh");
+	}
 	static void music() {
 		System.out.println("MUSIC");
 	}
@@ -27,7 +30,9 @@ class Child1 extends Parent1{
 	void print() {
 		System.out.println("-------print");
 	}
-	
+	void yogesh(){
+		System.out.println("-------yogesh");
+	}
 //	final void call() {
 //		System.out.println("call");
 //	}
@@ -49,5 +54,10 @@ public class Demo2 {
 		child1.print();
 		Parent1 parent1 = new Child1();
 		parent1.print();
+		parent1.show();
+		parent1.akhilesh();
 	}
 }
+// here child ka reference create hua hai, so child ka common method call hoga:
+// rest parent method call hoga:
+// child ka non override method call nhi hoga:

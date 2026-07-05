@@ -1,40 +1,24 @@
 package com.ganeshaa.TOPICS.Topic2.collections.mapp;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 import java.util.Map;
 import java.util.TreeMap;
-
+@NoArgsConstructor
+@AllArgsConstructor
+@Data
 class Employee1 implements Comparable<Employee1>{
 	int id;
 	String name;
-	public Employee1() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
-	public Employee1(int id, String name) {
-		super();
-		this.id = id;
-		this.name = name;
-	}
-	public int getId() {
-		return id;
-	}
-	public void setId(int id) {
-		this.id = id;
-	}
-	public String getName() {
-		return name;
-	}
-	public void setName(String name) {
-		this.name = name;
-	}
+
 	@Override
-	public String toString() {
-		return "Employee1 [id=" + id + ", name=" + name + "]";
+	public int compareTo(Employee1 e1){
+//		return this.id - e1.id;
+		return this.name.compareTo(e1.name);
 	}
-	@Override
-	public int compareTo(Employee1 e1) {
-		return this.id - e1.id;
-	}
+
 }
 public class TreeMapp {
 
@@ -45,7 +29,7 @@ public class TreeMapp {
 		Employee1 b2 = new Employee1(3, "Akash");
 		Employee1 b3 = new Employee1(3, "Vimlesh");
 		Employee1 b4 = new Employee1(4, "Raju");
-		Employee1 b5 = new Employee1(5, "Akhil");
+		Employee1 b5 = new Employee1(5, "Akhilesh");
 		
 		map.put( b1, 1);
 		map.put( b2, 2);

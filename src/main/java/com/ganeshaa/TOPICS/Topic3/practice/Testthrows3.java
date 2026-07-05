@@ -11,7 +11,11 @@ class M{
 class Testthrows3{
     public static void main(String args[])throws IOException{//declare exception
         M m=new M();
-        m.method();
+        try{
+            m.method();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
 
         System.out.println("normal flow...");
     }

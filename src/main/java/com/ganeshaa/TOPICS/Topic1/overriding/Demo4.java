@@ -7,7 +7,6 @@ class Parent3{
 	void print() {
 		System.out.println("print - P");
 	}
-
 }
 
 class Child4 extends Parent3{

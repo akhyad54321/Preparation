@@ -1,6 +1,7 @@
 package com.ganeshaa.TOPICS.Topic4.thread1;
 
 class Venue extends Thread{
+	@Override
 	public void run() {
 		for(int i=1; i<=5; i++) {
 			System.out.println("Venue ");
@@ -14,6 +15,7 @@ class Venue extends Thread{
 	}
 }
 class Card extends Thread{
+	@Override
 	public void run() {
 		for(int i=1; i<=5; i++) {
 			System.out.println("Card : ");
@@ -27,6 +29,7 @@ class Card extends Thread{
 	}
 }
 class Distribution extends Thread{
+	@Override
 	public void run() {
 		for(int i=1; i<=5; i++) {
 			System.out.println("Distribution : ");

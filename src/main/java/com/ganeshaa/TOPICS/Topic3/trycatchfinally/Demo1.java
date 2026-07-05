@@ -1,7 +1,7 @@
 package com.ganeshaa.TOPICS.Topic3.trycatchfinally;
 
 public class Demo1 {
-	static int a=100, b, c; 
+	static int a=100, b=0, c;
 	public static void main(String[] args) {
 		
 		try {

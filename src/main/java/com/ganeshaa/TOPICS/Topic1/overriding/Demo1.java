@@ -2,23 +2,18 @@ package com.ganeshaa.TOPICS.Topic1.overriding;
 
 class Parent {
     int id = 10;
-
     void show() {
         System.out.println("show");
     }
-
     void print() {
         System.out.println("print");
     }
-
     static void music() {
         System.out.println("MUSIC");
     }
-
     final void call() {
         System.out.println("call");
     }
-
     private void mobile() {
         System.out.println("he");
     }

@@ -1,5 +1,6 @@
 package com.ganeshaa.TOPICS.Topic1.stringg;
 
+import java.io.Serializable;
 import java.util.Scanner;
 
 public class Demo1 {
@@ -26,3 +27,7 @@ public class Demo1 {
 		System.out.println(name1.compareTo(name2));
 	}
 }
+
+//public final class String extends Object implements Serializable, Comparable, CharSequence{
+//	// ToDo: This is the default formet of String creation:
+//}

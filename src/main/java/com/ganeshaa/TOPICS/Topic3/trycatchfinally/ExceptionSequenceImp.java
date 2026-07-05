@@ -3,15 +3,14 @@ package com.ganeshaa.TOPICS.Topic3.trycatchfinally;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-class Akash{
-    static void thokwana() throws FileNotFoundException, IOException{
+class Akash {
+    static void thokwana() throws FileNotFoundException, IOException {
         System.out.println("sameer acha ladka hai");
     }
 }
 
 public class ExceptionSequenceImp {
     public static void main(String[] args) {
-
         try {
             Akash.thokwana();
         } catch (ArithmeticException exception) {

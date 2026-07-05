@@ -9,11 +9,9 @@ interface f1{
 	static void music() {
 		System.out.println("music");
 	}
-	
 	private void m1() {
 		System.out.println("hie");
 	}
-	
 }
 public class Demo4 implements f1{
 

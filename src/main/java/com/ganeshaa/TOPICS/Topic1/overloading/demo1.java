@@ -4,23 +4,18 @@ class Test {
     void show(int a) {// Type of argument
         System.out.println("1");
     }
-
     void show(float a) {
         System.out.println("2");
     }
-
     void print(int a, String b) {// Sequence of argument
         System.out.println("10");
     }
-
     void print(String b, int a) {
         System.out.println("20");
     }
-
     void call(int a) {// No of argument
         System.out.println("11");
     }
-
     void call() {
         System.out.println("12");
     }
@@ -31,7 +26,6 @@ class Test1 {
     int show(int a) {// Important : ReturnType same nhi hoga, but parameter different hona chaiyea :
         return a;
     }
-
     float show(float b) {
         return b;
     }

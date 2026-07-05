@@ -12,12 +12,12 @@ class Bookk{
 	}
 	
 	void m2() {
-//		try {
-//			c = a/b;
-//		}
-//		catch (Exception e) {
-//			System.out.println(e);
-//		}
+		try {
+			c = a/b;
+		}
+		catch (Exception e) {
+			System.out.println(e);
+		}
 		c = a/b;
 	}
 }

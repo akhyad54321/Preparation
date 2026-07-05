@@ -2,11 +2,9 @@ package com.ganeshaa.TOPICS.Topic1.finalstatic;
 
 class Parent{
 	final int a = 10;
-	
 	final void show() {
 		System.out.println("show");
 	}
-	
 	void print() {
 		System.out.println("print");
 	}
@@ -24,10 +22,6 @@ class Child extends Parent{
 }
 public class Demo2 extends Parent{
 	public static void main(String[] args) {
-		
 		System.out.println("Hi");
-		
-		
 	}
-	
 }

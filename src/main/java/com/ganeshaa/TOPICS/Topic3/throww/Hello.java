@@ -25,8 +25,8 @@ public class Hello {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Child child=new Child();
-//		Child c1 = new Child("Akhilesh");
-//		Parent p1 = new Parent();
+		Child c1 = new Child("Akhilesh");
+		Parent p1 = new Parent();
 
 	}
 

@@ -1,7 +1,6 @@
 package com.ganeshaa.TOPICS.Topic1.finalstatic;
 
 final class Parent1{
-	
 	void print() {
 		System.out.println("print");
 	}

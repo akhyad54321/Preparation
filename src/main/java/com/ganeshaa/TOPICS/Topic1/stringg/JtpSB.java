@@ -8,8 +8,8 @@ public class JtpSB {
 //		s1.append("Yadav");
 //		System.out.println(s1);
 		
-//		s1.insert(2, "Yadav");
-//		System.out.println(s1);
+		s1.insert(2, "Yadav");
+		System.out.println(s1);
 		
 //		s1.replace(1, 4, "Yadav");
 //		System.out.println(s1);

@@ -4,14 +4,12 @@ class Practicee extends Thread{
 	
 	void show(){
 		try {
-
-
 			System.out.println("Hi");
 			System.out.println("Hi");
 			System.out.println("Hi");
 			System.out.println("Hi");
 
-			synchronized (this) {
+			synchronized (this) { //this nhi likhna hai: class ka naam likhna hai Practicee.class
 				for(int i=1; i<=5; i++) {
 					System.out.println(Thread.currentThread().getName() + " = " + i);
 					Thread.sleep(1000);
@@ -21,8 +19,6 @@ class Practicee extends Thread{
 			System.out.println("Hello");
 			System.out.println("Hello");
 			System.out.println("Hello");
-
-
 		} catch (InterruptedException e) {
 			System.out.println(e);
 		}

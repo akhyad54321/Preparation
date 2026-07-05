@@ -6,7 +6,7 @@ public class ThreadDemo {
 		ClassLockDemo c = new ClassLockDemo();
 		Thread t1 = new Thread(()->{
 			synchronized (ClassLockDemo.class) {
-				ClassLockDemo.method1();	
+				ClassLockDemo.method1();
 			}
 		});
 		

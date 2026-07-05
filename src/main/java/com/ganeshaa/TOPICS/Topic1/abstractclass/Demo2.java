@@ -9,27 +9,22 @@ abstract class Test1{
 }
 
 abstract class Test2 extends Test1{
-
 	abstract void print();
 }
 
 class Test3 extends Test2{
-
 	@Override
 	void print() {
 		System.out.println("1");	
 	}
-
 	@Override
 	void run() {
 		System.out.println("2");
 	}
-
 	@Override
 	void show() {
 		System.out.println("3");
 	}
-	
 }
 
 public class Demo2 {
